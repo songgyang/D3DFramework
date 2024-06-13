@@ -1,0 +1,206 @@
+<Root Name="handRoot" Visible="true" ObType="1">
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="2"/>
+    <Child0 Name="Base" Visible="true" ObType="0">
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="5"/>
+        <Child0 Name="Finger0" Visible="true" ObType="0">
+            <Transform>
+                <Position X="1.9" Y="-0.15000001" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="1.5732698" Z="0"/>
+            </Transform>
+            <Children Size="2"/>
+            <Child0 Name="Finger0-1" Visible="true" ObType="0">
+                <Transform>
+                    <Position X="1.35" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="1.5732698" Z="0"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="obj1" Visible="true" ObType="0">
+                    <Mesh File="6.Sphere.mesh"/>
+                    <Shader File="1.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0.40000001" Y="0" Z="0"/>
+                        <Scale X="0.75" Y="0.5" Z="0.5"/>
+                        <Rotation X="0" Y="0" Z="0"/>
+                    </Transform>
+                    <Children Size="0"/>
+                </Child0>
+            </Child0>
+            <Child1 Name="obj0" Visible="true" ObType="0">
+                <Mesh File="6.Sphere.mesh"/>
+                <Shader File="1.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0.55000001" Y="0" Z="0"/>
+                    <Scale X="0.75" Y="0.55000001" Z="0.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child1>
+        </Child0>
+        <Child1 Name="Finger1" Visible="true" ObType="0">
+            <Transform>
+                <Position X="1.3" Y="0.85000002" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0.0047611189" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="2"/>
+            <Child0 Name="Finger1-1" Visible="true" ObType="0">
+                <Transform>
+                    <Position X="0" Y="2" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0.0047611189" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="obj3" Visible="true" ObType="0">
+                    <Mesh File="6.Sphere.mesh"/>
+                    <Shader File="1.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0" Y="0.5" Z="0"/>
+                        <Scale X="0.5" Y="1" Z="0.5"/>
+                        <Rotation X="0" Y="0" Z="0"/>
+                    </Transform>
+                    <Children Size="0"/>
+                </Child0>
+            </Child0>
+            <Child1 Name="obj2" Visible="true" ObType="0">
+                <Mesh File="6.Sphere.mesh"/>
+                <Shader File="1.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="1" Z="0"/>
+                    <Scale X="0.5" Y="1" Z="0.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child1>
+        </Child1>
+        <Child2 Name="Finger2" Visible="true" ObType="0">
+            <Transform>
+                <Position X="0.44999999" Y="1.2" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0.0047611189" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="2"/>
+            <Child0 Name="Finger2-1" Visible="true" ObType="0">
+                <Transform>
+                    <Position X="0" Y="2" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0.0047611189" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="obj5" Visible="true" ObType="0">
+                    <Mesh File="6.Sphere.mesh"/>
+                    <Shader File="1.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0" Y="0.5" Z="0"/>
+                        <Scale X="0.5" Y="1" Z="0.5"/>
+                        <Rotation X="0" Y="0" Z="0"/>
+                    </Transform>
+                    <Children Size="0"/>
+                </Child0>
+            </Child0>
+            <Child1 Name="obj4" Visible="true" ObType="0">
+                <Mesh File="6.Sphere.mesh"/>
+                <Shader File="1.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="1" Z="0"/>
+                    <Scale X="0.5" Y="1" Z="0.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child1>
+        </Child2>
+        <Child3 Name="Finger3" Visible="true" ObType="0">
+            <Transform>
+                <Position X="-0.5" Y="1.2" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="-1.5732698" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="2"/>
+            <Child0 Name="Finger3-1" Visible="true" ObType="0">
+                <Transform>
+                    <Position X="0" Y="2" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="-1.5732698" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="obj7" Visible="true" ObType="0">
+                    <Mesh File="6.Sphere.mesh"/>
+                    <Shader File="1.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0" Y="0.5" Z="0"/>
+                        <Scale X="0.5" Y="1" Z="0.5"/>
+                        <Rotation X="0" Y="0" Z="0"/>
+                    </Transform>
+                    <Children Size="0"/>
+                </Child0>
+            </Child0>
+            <Child1 Name="obj6" Visible="true" ObType="0">
+                <Mesh File="6.Sphere.mesh"/>
+                <Shader File="1.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="1" Z="0"/>
+                    <Scale X="0.5" Y="1" Z="0.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child1>
+        </Child3>
+        <Child4 Name="Finger4" Visible="true" ObType="0">
+            <Transform>
+                <Position X="-1.4" Y="0.80000001" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="-1.5732698" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="2"/>
+            <Child0 Name="Finger4-1" Visible="true" ObType="0">
+                <Transform>
+                    <Position X="0" Y="2" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="-1.5732698" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="obj9" Visible="true" ObType="0">
+                    <Mesh File="6.Sphere.mesh"/>
+                    <Shader File="1.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0" Y="0.5" Z="0"/>
+                        <Scale X="0.5" Y="1" Z="0.5"/>
+                        <Rotation X="0" Y="0" Z="0"/>
+                    </Transform>
+                    <Children Size="0"/>
+                </Child0>
+            </Child0>
+            <Child1 Name="obj8" Visible="true" ObType="0">
+                <Mesh File="6.Sphere.mesh"/>
+                <Shader File="1.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="1" Z="0"/>
+                    <Scale X="0.5" Y="1" Z="0.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child1>
+        </Child4>
+    </Child0>
+    <Child1 Name="None" Visible="true" ObType="0">
+        <Mesh File="6.Sphere.mesh"/>
+        <Shader File="1.Cube.hlsl"/>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="2" Y="1.5" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child1>
+</Root>

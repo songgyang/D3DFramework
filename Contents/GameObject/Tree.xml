@@ -1,0 +1,75 @@
+<Root Name="Lowpoly_tree_sample" Visible="true" ObType="1">
+    <Transform>
+        <Position X="7" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="3"/>
+    <Child0 Name="Instance1" Visible="true" ObType="0">
+        <Collider ColliderType="2" Visible="true">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="-32.150002" Y="0.25" Z="19.200001"/>
+            <Scale X="2.0999999" Y="0.99984109" Z="1.749"/>
+            <Rotation X="1.5707961" Y="1.1514399" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child0>
+    <Child1 Name="Instance2" Visible="true" ObType="0">
+        <Collider ColliderType="2" Visible="true">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="0" Y="0" Z="40"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child1>
+    <Child2 Name="Lowpoly_tree_sample.obj" Visible="true" ObType="0">
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="2"/>
+        <Child0 Name="Default" Visible="true" ObType="0">
+            <Mesh File="Lowpoly_tree_sample/Default.mesh"/>
+            <Instance File="tree/tree1.ins"/>
+            <Shader File="4.Instance.hlsl"/>
+            <Material File="Lowpoly_tree_sample/Bark.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="TreeMeshObject1" Visible="true" ObType="0">
+                <Mesh File="Lowpoly_tree_sample/TreeMeshObject1.mesh"/>
+                <Instance File="tree/tree2.ins"/>
+                <Shader File="4.Instance.hlsl"/>
+                <Material File="Lowpoly_tree_sample/Tree.mtl"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child0>
+        <Child1 Name="Tree_lp_11" Visible="true" ObType="0">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+    </Child2>
+</Root>

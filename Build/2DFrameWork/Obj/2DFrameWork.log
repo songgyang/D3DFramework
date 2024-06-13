@@ -1,0 +1,169 @@
+﻿  Animation.cpp
+  AStar.cpp
+  Billboard.cpp
+  BinaryFile.cpp
+  BlendState.cpp
+  Camera.cpp
+  Collider.cpp
+  CubeRenderTarget.cpp
+  DamageText.cpp
+  DepthState.cpp
+  Direct3D11.cpp
+  Dwrite.cpp
+C:\Users\lee\Desktop\Framework2\2DFrameWork\CubeRenderTarget.cpp(11,16): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\CubeRenderTarget.cpp(12,17): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\CubeRenderTarget.cpp(49,16): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\CubeRenderTarget.cpp(50,17): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\CubeRenderTarget.cpp(73,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\CubeRenderTarget.cpp(89,26): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\CubeRenderTarget.cpp(89,19): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\CubeRenderTarget.cpp(222,16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\CubeRenderTarget.cpp(235,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\DamageText.cpp(60,49): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Dwrite.cpp(182,5): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Animation.cpp(269,23): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\AStar.cpp(147,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\AStar.cpp(148,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\AStar.cpp(293,39): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\AStar.cpp(340,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\AStar.cpp(341,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\AStar.cpp(343,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Collider.cpp(157,8): warning C4101: 'Dis' :참조되지 않은 지역 변수입니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+  GameObject.cpp
+  GameObjectGui.cpp
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+  GameObjectSaveLoad.cpp
+  Grid.cpp
+  Gui.cpp
+  Input.cpp
+  Light.cpp
+  Material.cpp
+  Mesh.cpp
+  Pop.cpp
+  PostEffect.cpp
+  Rain.cpp
+C:\Users\lee\Desktop\Framework2\2DFrameWork\GameObjectSaveLoad.cpp(388,46): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\GameObjectSaveLoad.cpp(389,46): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Input.cpp(135,36): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Input.cpp(136,37): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Input.cpp(145,37): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Input.cpp(146,37): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Grid.cpp(23,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Grid.cpp(26,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Mesh.cpp(35,50): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Mesh.cpp(35,44): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Mesh.cpp(565,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Mesh.cpp(690,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Mesh.cpp(708,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Mesh.cpp(721,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Rain.cpp(118,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Pop.cpp(70,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Random.cpp
+  RasterState.cpp
+  RenderTarget.cpp
+  ResouceManager.cpp
+  SceneManager.cpp
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+  Shader.cpp
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+  Skeleton.cpp
+  Sky.cpp
+  SlashTrail.cpp
+  Sound.cpp
+  Terrain.cpp
+  Texture.cpp
+C:\Users\lee\Desktop\Framework2\2DFrameWork\RenderTarget.cpp(9,22): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\RenderTarget.cpp(10,23): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\RenderTarget.cpp(104,29): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\RenderTarget.cpp(104,22): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\RenderTarget.cpp(129,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\RenderTarget.cpp(130,20): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\SlashTrail.cpp(70,44): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\SlashTrail.cpp(88,61): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\SlashTrail.cpp(130,42): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Shader.cpp(105,44): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Shader.cpp(121,26): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Terrain.cpp(53,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Terrain.cpp(248,34): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Timer.cpp
+  Transform.cpp
+  UI.cpp
+  Utility.cpp
+  Water.cpp
+  Window.cpp
+  Xml.cpp
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\ResouceManager.h(25): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Utility.cpp(207,32): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Utility.cpp(208,16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Utility.cpp(250,32): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Utility.cpp(251,16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2575,23): warning C4244: '인수': 'wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Elem=char
+          ] (소스 파일 컴파일 중 Utility.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2586): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(_Iter,const _Iter,std::input_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=wchar_t *,
+              _Iter=wchar_t *
+          ] (소스 파일 컴파일 중 Utility.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2586): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(_Iter,const _Iter,std::input_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=wchar_t *,
+              _Iter=wchar_t *
+          ] (소스 파일 컴파일 중 Utility.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2566): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(const _Iter,const _Iter,std::forward_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=wchar_t *,
+              _Iter=wchar_t *
+          ] (소스 파일 컴파일 중 Utility.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2566): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(const _Iter,const _Iter,std::forward_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=wchar_t *,
+              _Iter=wchar_t *
+          ] (소스 파일 컴파일 중 Utility.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3294): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ] (소스 파일 컴파일 중 Utility.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3294): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ] (소스 파일 컴파일 중 Utility.cpp)
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Utility.cpp(38): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+C:\Users\lee\Desktop\Framework2\2DFrameWork\Utility.cpp(38): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+  2DFrameWork.vcxproj -> C:\Users\lee\Desktop\Framework2\Build\2DFrameWork\2DFrameWork.lib

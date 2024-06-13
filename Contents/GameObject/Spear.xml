@@ -1,0 +1,28 @@
+<Root Name="Spear" Visible="true" ObType="1">
+    <Shader File="2.Cube.hlsl"/>
+    <Transform>
+        <Position X="0" Y="0" Z="-12"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="2"/>
+    <Child0 Name="Cam" Visible="true" ObType="2">
+        <Transform>
+            <Position X="35.675797" Y="10.931541" Z="-1.17599"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0.26800036" Y="-1.554002" Z="0"/>
+        </Transform>
+        <Camera Ortho="false" Fov="1.047192" Width="1410" Height="906" NearZ="0.1" FarZ="500" viewportX="0" viewportY="0" viewportW="1410" viewportH="906"/>
+        <Children Size="0"/>
+    </Child0>
+    <Child1 Name="Mesh" Visible="true" ObType="0">
+        <Mesh File="2.Sphere.mesh"/>
+        <Shader File="2.Cube.hlsl"/>
+        <Transform>
+            <Position X="0" Y="0" Z="5.75"/>
+            <Scale X="0.34999999" Y="0.34999999" Z="5.8000002"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child1>
+</Root>

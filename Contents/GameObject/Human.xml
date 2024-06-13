@@ -1,0 +1,131 @@
+<Root Name="Actor" Visible="true" ObType="1">
+    <Transform>
+        <Position X="-94.209" Y="2.0999999" Z="31.242794"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="2"/>
+    <Child0 Name="Body" Visible="true" ObType="0">
+        <Mesh File="6.Rectskin.mesh"/>
+        <Shader File="6.Cube.hlsl"/>
+        <Material File="mine.mtl"/>
+        <Transform>
+            <Position X="0" Y="6" Z="0"/>
+            <Scale X="1" Y="1.6" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="5"/>
+        <Child0 Name="LPelvic" Visible="true" ObType="0">
+            <Transform>
+                <Position X="-0.5" Y="-1" Z="0"/>
+                <Scale X="1.2" Y="1.5" Z="1"/>
+                <Rotation X="0.28186917" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="LLeg" Visible="true" ObType="0">
+                <Mesh File="6.CubeskinRLeg.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Material File="mine.mtl"/>
+                <Transform>
+                    <Position X="0" Y="-1" Z="0"/>
+                    <Scale X="0.40000001" Y="1" Z="0.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child0>
+        <Child1 Name="LSholder" Visible="true" ObType="0">
+            <Transform>
+                <Position X="-1" Y="1" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="-0.44317165" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="LArm" Visible="true" ObType="0">
+                <Mesh File="6.cubeskinRarm.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Material File="mine.mtl"/>
+                <Transform>
+                    <Position X="-0.30000001" Y="-1" Z="0"/>
+                    <Scale X="0.30000001" Y="1" Z="0.30000001"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child1>
+        <Child2 Name="Neck" Visible="true" ObType="0">
+            <Transform>
+                <Position X="0" Y="1" Z="0"/>
+                <Scale X="1" Y="1.2" Z="1"/>
+                <Rotation X="0" Y="-0.20943838" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="Head" Visible="true" ObType="0">
+                <Mesh File="6.Rectskinhead.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Material File="mine.mtl"/>
+                <Transform>
+                    <Position X="0" Y="0.375" Z="0"/>
+                    <Scale X="0.80000001" Y="0.40000001" Z="0.80000001"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child2>
+        <Child3 Name="RPelvic" Visible="true" ObType="0">
+            <Transform>
+                <Position X="0.5" Y="-1" Z="0"/>
+                <Scale X="1.2" Y="1.5" Z="1"/>
+                <Rotation X="-0.49916151" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="RLeg" Visible="true" ObType="0">
+                <Mesh File="6.CubeskinRLeg.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Material File="mine.mtl"/>
+                <Transform>
+                    <Position X="0" Y="-1" Z="0"/>
+                    <Scale X="0.40000001" Y="1" Z="0.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child3>
+        <Child4 Name="RSholder" Visible="true" ObType="0">
+            <Transform>
+                <Position X="1" Y="1" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0.39793292" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="RArm" Visible="true" ObType="0">
+                <Mesh File="6.cubeskinRarm.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Material File="mine.mtl"/>
+                <Transform>
+                    <Position X="0.30000001" Y="-1" Z="0"/>
+                    <Scale X="0.30000001" Y="1" Z="0.30000001"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="RHand" Visible="true" ObType="0">
+                    <Transform>
+                        <Position X="0.16666667" Y="-1.275" Z="0"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="-0.032288417" Y="0" Z="0"/>
+                    </Transform>
+                    <Children Size="0"/>
+                </Child0>
+            </Child0>
+        </Child4>
+    </Child0>
+    <Child1 Name="Cam" Visible="true" ObType="2">
+        <Transform>
+            <Position X="0" Y="17.1" Z="-14.55"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0.39095166" Y="0" Z="0"/>
+        </Transform>
+        <Camera Ortho="false" Fov="1.047192" Width="1410" Height="906" NearZ="0.1" FarZ="500" viewportX="0" viewportY="0" viewportW="1410" viewportH="906"/>
+        <Children Size="0"/>
+    </Child1>
+</Root>

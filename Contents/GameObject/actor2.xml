@@ -1,0 +1,15 @@
+<Root Name="Actor" Visible="true" ObType="1">
+    <Mesh File="1.Cube.mesh"/>
+    <Shader File="1.Cube.hlsl"/>
+    <Collider ColliderType="0" Visible="true">
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="2.2" Y="2.2" Z="2.2"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Collider>
+    <Transform>
+        <Position X="-9.75" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="-0.0034906399" Z="0"/>
+    </Transform>
+    <Children Size="0"/>
+</Root>

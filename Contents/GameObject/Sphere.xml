@@ -1,0 +1,12 @@
+<Root Name="Actor" Visible="true" ObType="1">
+    <Mesh File="2.Sphere22.mesh"/>
+    <Instance File="sphere.ins"/>
+    <Shader File="2.Instance.hlsl"/>
+    <Material File="Sphere.mtl"/>
+    <Transform>
+        <Position X="-144.64999" Y="14.4" Z="16.799999"/>
+        <Scale X="3" Y="3" Z="3"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="0"/>
+</Root>

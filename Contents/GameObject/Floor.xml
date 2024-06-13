@@ -1,0 +1,79 @@
+<Root Name="Terrain" Visible="true" ObType="3">
+    <Mesh File="Floor.mesh"/>
+    <Shader File="5.Cube.hlsl"/>
+    <EnviromentShader File="5.Cube_Enviroment.hlsl"/>
+    <WaterShader File="5.Cube_Water.hlsl"/>
+    <Material File="Floor.mtl"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="3" Y="3" Z="3"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Terrain garo="257" size="66049" uvScale="1"/>
+    <Children Size="5"/>
+    <Child0 Name="Col1" Visible="true" ObType="0">
+        <Collider ColliderType="1" Visible="true">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="-45.392666" Y="5.1500006" Z="-0.45000002"/>
+            <Scale X="2" Y="2" Z="2"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child0>
+    <Child1 Name="Col2" Visible="true" ObType="0">
+        <Collider ColliderType="1" Visible="true">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="-40.426003" Y="4.5166674" Z="6.5333343"/>
+            <Scale X="2" Y="2" Z="2"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child1>
+    <Child2 Name="Col3" Visible="true" ObType="0">
+        <Collider ColliderType="1" Visible="true">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="-54.309669" Y="4.8166666" Z="-0.066666678"/>
+            <Scale X="2" Y="2" Z="2"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child2>
+    <Child3 Name="Col4" Visible="true" ObType="0">
+        <Collider ColliderType="1" Visible="true">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="-48.359337" Y="4.7666674" Z="10.033335"/>
+            <Scale X="2" Y="2" Z="2"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child3>
+    <Child4 Name="Col5" Visible="true" ObType="0">
+        <Collider ColliderType="1" Visible="true">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="-55.359337" Y="4.7833338" Z="8.5666676"/>
+            <Scale X="2" Y="2" Z="2"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child4>
+</Root>

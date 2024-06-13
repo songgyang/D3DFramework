@@ -1,0 +1,177 @@
+<Root Name="Actor" Visible="true" ObType="1">
+    <Collider ColliderType="2" Visible="true">
+        <Position X="0" Y="2.7" Z="0"/>
+        <Scale X="0.75" Y="2.5" Z="0.60000002"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Collider>
+    <Transform>
+        <Position X="2.5999999" Y="10.07" Z="-8"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="3.1415758" Z="0"/>
+    </Transform>
+    <Children Size="2"/>
+    <Child0 Name="Offset" Visible="true" ObType="1">
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="-0.03300022" Z="0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="Cam" Visible="true" ObType="2">
+            <Transform>
+                <Position X="23.6" Y="23.950001" Z="-2.45"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0.78539395" Y="-1.5707879" Z="0"/>
+            </Transform>
+            <Camera Ortho="false" Fov="1.047192" Width="1404" Height="959" NearZ="0.1" FarZ="500" viewportX="0" viewportY="0" viewportW="1404" viewportH="959"/>
+            <Children Size="0"/>
+        </Child0>
+    </Child0>
+    <Child1 Name="frogman" Visible="true" ObType="1">
+        <Shader File="6.Cube.hlsl"/>
+        <Collider ColliderType="2" Visible="false">
+            <Position X="0" Y="-0.25" Z="0"/>
+            <Scale X="0.75" Y="2.5" Z="0.60000002"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Material File="Frog.mtl"/>
+        <Transform>
+            <Position X="0" Y="3" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="6"/>
+        <Child0 Name="body" Visible="true" ObType="0">
+            <Mesh File="6.FBD.mesh"/>
+            <Shader File="6.Cube.hlsl"/>
+            <Material File="Frog.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="0.80000001" Y="1" Z="0.5"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="left_leg_chain1" Visible="true" ObType="0">
+            <Material File="Frog.mtl"/>
+            <Transform>
+                <Position X="-0.44999999" Y="-1" Z="0"/>
+                <Scale X="0.1" Y="0.1" Z="0.1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="left_leg1" Visible="true" ObType="0">
+                <Mesh File="6.FLL.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Collider ColliderType="2" Visible="true">
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Collider>
+                <Material File="Frog.mtl"/>
+                <Transform>
+                    <Position X="-4.2915344e-06" Y="-9" Z="0"/>
+                    <Scale X="3.5" Y="9" Z="3.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child1>
+        <Child2 Name="left_shoulder" Visible="true" ObType="0">
+            <Material File="Frog.mtl"/>
+            <Transform>
+                <Position X="-0.80000001" Y="0.75" Z="0"/>
+                <Scale X="0.1" Y="0.1" Z="0.1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="left_arm" Visible="true" ObType="0">
+                <Mesh File="6.FLA.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Collider ColliderType="2" Visible="true">
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Collider>
+                <Material File="Frog.mtl"/>
+                <Transform>
+                    <Position X="-2.5" Y="-6.5" Z="0"/>
+                    <Scale X="2.5" Y="9" Z="2.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child2>
+        <Child3 Name="neck" Visible="true" ObType="0">
+            <Material File="Frog.mtl"/>
+            <Transform>
+                <Position X="0" Y="1" Z="0"/>
+                <Scale X="0.1" Y="0.1" Z="0.1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="head" Visible="true" ObType="0">
+                <Mesh File="6.ForGH.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Material File="Frog.mtl"/>
+                <Transform>
+                    <Position X="0" Y="6.0000076" Z="0"/>
+                    <Scale X="6" Y="6" Z="6"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child3>
+        <Child4 Name="right_leg_chain1" Visible="true" ObType="0">
+            <Material File="Frog.mtl"/>
+            <Transform>
+                <Position X="0.5" Y="-1" Z="0"/>
+                <Scale X="0.1" Y="0.1" Z="0.1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="right_leg1" Visible="true" ObType="0">
+                <Mesh File="6.FRL.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Collider ColliderType="2" Visible="true">
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Collider>
+                <Material File="Frog.mtl"/>
+                <Transform>
+                    <Position X="-0.5" Y="-9" Z="0"/>
+                    <Scale X="3.5" Y="9" Z="3.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child4>
+        <Child5 Name="right_shoulder" Visible="true" ObType="0">
+            <Shader File="6.Cube.hlsl"/>
+            <Material File="Frog.mtl"/>
+            <Transform>
+                <Position X="0.80000001" Y="0.75" Z="0"/>
+                <Scale X="0.1" Y="0.1" Z="0.1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="right_arm" Visible="true" ObType="0">
+                <Mesh File="6.FRA.mesh"/>
+                <Shader File="6.Cube.hlsl"/>
+                <Collider ColliderType="2" Visible="true">
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Collider>
+                <Material File="Frog.mtl"/>
+                <Transform>
+                    <Position X="2.5" Y="-6.5" Z="0"/>
+                    <Scale X="2.5" Y="9" Z="2.5"/>
+                    <Rotation X="0" Y="0" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child5>
+    </Child1>
+</Root>
